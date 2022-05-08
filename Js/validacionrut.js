@@ -21,7 +21,7 @@ function checkRut(rut) {
     // Para cada dígito del Cuerpo
     for(i=1;i<=cuerpo.length;i++) {
     
-        // Obtener su Producto con el Múltiplo Correspondiente
+        // Obtener su Producto con el Multiplo Correspondiente
         index = multiplo * valor.charAt(cuerpo.length - i);
         
         // Sumar al Contador General
